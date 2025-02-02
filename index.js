@@ -10,8 +10,7 @@ function QuestionOne(a, b) {
   b = a - b; // 5
   a = a - b; // 10
 
-  
- console.log(a,b)
+  console.log(a, b);
 }
 
 console.log(QuestionOne(a, b, c));
@@ -73,6 +72,18 @@ function QuestionFour(array) {
 }
 
 // console.log(QuestionFour(array));
+
+// Q. 5 Sum of even numbers in an array
+
+var array = [1, 2, 3, 4, 5, 6];
+
+function QuestionFive(array) {
+
+  console.log("array :", array)
+
+}
+
+console.log(QuestionFive(array));
 
 // Q. 6 number of vowels in a string
 
